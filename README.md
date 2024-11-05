@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Portfólio de Maycon Silva Rodrigues
 
-First, run the development server:
+Bem-vindo ao portfólio de **Maycon Silva Rodrigues**, desenvolvido com **Next.js** e **Tailwind CSS** para destacar minhas habilidades e projetos como desenvolvedor. Este projeto conta com uma estrutura responsiva e será incrementado com animações 3D, efeitos de parallax, otimizações de SEO, acessibilidade aprimorada, entre outros elementos para uma experiência de navegação mais rica.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Link do repositório
+- [GitHub - Portfólio 2024](https://github.com/mayconSR/portfolio-2024.git)
+
+## 📋 Índice
+- [Visão Geral](#-visão-geral)
+- [Funcionalidades](#-funcionalidades)
+- [Instalação](#-instalação)
+- [Estrutura do Projeto](#-estrutura-do-projeto)
+- [Customização](#-customização)
+
+---
+
+## 🖥️ Visão Geral
+Este portfólio foi criado para demonstrar minha experiência e habilidades em desenvolvimento front-end, especialmente com **React**, **Next.js** e **Tailwind CSS**. A estrutura do site é responsiva e inclui um menu lateral que se adapta perfeitamente para dispositivos móveis, criando uma experiência imersiva e intuitiva.
+
+## ✨ Funcionalidades
+
+- **Seção Sobre**: Introdução pessoal com imagem de perfil e descrição.
+- **Seção Projetos**: Lista de projetos em destaque com links diretos para repositórios no GitHub.
+- **Seção Contato**: Link para contato direto via GitHub.
+- **Menu Responsivo**: Menu lateral para mobile e barra de navegação no desktop.
+
+## 🚀 Instalação
+
+Para rodar o projeto localmente e explorar o código:
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/mayconSR/portfolio-2024.git
+   cd portfolio-2024
+   ```
+
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+
+3. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
+
+4. Acesse no navegador:
+   ```
+   http://localhost:3000
+   ```
+
+## 📁 Estrutura do Projeto
+
+```
+.
+├── components/
+│   ├── Header.js         # Cabeçalho com navegação responsiva
+│   ├── About.js          # Seção Sobre
+│   ├── Projects.js       # Seção Projetos
+│   └── Contact.js        # Seção Contato
+├── pages/
+│   ├── index.js          # Página inicial do portfólio
+├── public/
+│   ├── logoT.svg         # Logo principal para o tema claro
+│   ├── logoB.svg         # Logo para o tema escuro
+│   └── favicon.ico       # Ícone do site
+├── styles/
+│   ├── globals.css       # Estilos globais do projeto
+├── .gitignore            # Arquivos e pastas ignoradas pelo Git
+├── tailwind.config.js    # Configurações do Tailwind
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🛠️ Customização
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+O portfólio foi desenvolvido com uma estrutura modular e de fácil adaptação. Sinta-se à vontade para usá-lo como base para seu próprio portfólio, adicionando animações, efeitos interativos, novas seções e otimizações de SEO conforme necessário.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
